@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/modupdates/static/css/main.073c9b0a.css",
+    "main.js": "/modupdates/static/js/main.601b40c1.js",
+    "static/js/787.17e90353.chunk.js": "/modupdates/static/js/787.17e90353.chunk.js",
+    "static/media/logo.svg": "/modupdates/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/modupdates/index.html",
+    "main.073c9b0a.css.map": "/modupdates/static/css/main.073c9b0a.css.map",
+    "main.601b40c1.js.map": "/modupdates/static/js/main.601b40c1.js.map",
+    "787.17e90353.chunk.js.map": "/modupdates/static/js/787.17e90353.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.601b40c1.js"
+  ]
+}
