@@ -1,8 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './style/index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import reportWebVitals from './app/reportWebVitals';
+import { HashRouter, Route, Routes } from "react-router-dom";
+import Home, { Payday2 } from "./routes";
+import { sitemap } from './sitemaps/sitemap';
+
+export function App() {
+  return (
+    <HashRouter>
+      <Routes>
+        <Route path={sitemap.path} element={<Home />} />
+        <Route path={sitemap.Payday2.Home.path} element={<Payday2 />} />
+      </Routes>
+    </HashRouter >
+  );
+}
 
 ReactDOM.render(
   <React.StrictMode>
