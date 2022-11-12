@@ -11,7 +11,7 @@ export function App() {
     <HashRouter>
       <Routes>
         <Route path={sitemap.path} element={<Home />} />
-        <Route path={sitemap.Payday2.Home.path} element={<Payday2 />} />
+        <Route path={sitemap.Payday2.path} element={<Payday2 />} />
         <Route path={sitemap.Payday2.PerkDecks.path} element={<PerkDecks />} />
       </Routes>
     </HashRouter >

@@ -12,7 +12,7 @@ const Home: React.FC = () => {
     return <>
         <h1>Home</h1>
         <p>Hello, World!</p>
-        <button type='button' onClick={() => redirect(sitemap.Payday2.Home.path)}>Payday 2</button>
+        <button type='button' onClick={() => redirect(sitemap.Payday2.path)}>Payday 2</button>
     </>
 }
 
