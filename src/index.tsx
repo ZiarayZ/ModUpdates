@@ -12,6 +12,7 @@ export function App() {
       <Routes>
         <Route path={sitemap.path} element={<Navigate to={sitemap.Home.path} replace />} />
         <Route path={sitemap.Payday2.path} element={<Navigate to={sitemap.Payday2.Mods.path} replace />} />
+
         <Route path={sitemap.Home.path} element={<Home />} />
         <Route path={sitemap.Payday2.Mods.path} element={<Payday2 />} />
         <Route path={sitemap.Payday2.PerkDecks.path} element={<PerkDecks />} />
