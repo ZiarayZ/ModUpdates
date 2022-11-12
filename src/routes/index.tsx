@@ -1,5 +1,5 @@
 import React from "react";
-import { redirect } from "react-router-dom";
+import { Navigate } from "react-router-dom";
 import { sitemap } from "../sitemaps/sitemap";
 import Payday2FC from "./Payday2";
 
@@ -10,7 +10,7 @@ const Home: React.FC = () => {
     return <>
         <h1>Home</h1>
         <p>Hello, World!</p>
-        <a onClick={() => redirect(sitemap.Payday2.Home.path)}>Payday 2</a>
+        <a onClick={() => <Navigate to={sitemap.Payday2.Home.path} />}>Payday 2</a>
     </>
 }
 
