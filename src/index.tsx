@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './style/index.css';
 import reportWebVitals from './app/reportWebVitals';
 import { HashRouter, Route, Routes } from "react-router-dom";
-import Home, { Payday2 } from "./routes";
+import Home, { Payday2, PerkDecks } from "./routes";
 import { sitemap } from './sitemaps/sitemap';
 
 export function App() {
@@ -12,6 +12,7 @@ export function App() {
       <Routes>
         <Route path={sitemap.path} element={<Home />} />
         <Route path={sitemap.Payday2.Home.path} element={<Payday2 />} />
+        <Route path={sitemap.Payday2.PerkDecks.path} element={<PerkDecks />} />
       </Routes>
     </HashRouter >
   );
