@@ -10,7 +10,7 @@ const Home: React.FC = () => {
     return <>
         <h1>Home</h1>
         <p>Hello, World!</p>
-        <a onClick={() => <Navigate to={sitemap.Payday2.Home.path} />}>Payday 2</a>
+        <a onClick={() => <Navigate to={sitemap.Payday2.Home.path} replace />}>Payday 2</a>
     </>
 }
 
