@@ -1,7 +1,7 @@
 {
   "name": "modupdates",
   "version": "0.1.0",
-  "homepage": "https://ziarayz.github.io/modupdates",
+  "homepage": "https://ziarayz.github.io/ModUpdates",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
