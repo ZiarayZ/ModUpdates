@@ -1,30 +1,29 @@
-export function CreateParameters<T extends string>(params: T[]) { return params };
-export type iRouteMapEntryNoParams = null;
-export type iRouteMapEntryWithParams<PARAM_K extends string> = PARAM_K[];
-export function joinUrl(...parts: (string[] | string)[]): string {
+type iRouteMapEntryNoParams = null;
+type iRouteMapEntryWithParams<PARAM_K extends string> = PARAM_K[];
+function joinUrl(...parts: (string[] | string)[]): string {
     return "/" + parts.map(part => Array.isArray(part) ? part : part.split("/")).reduce((prev, curr) => prev.concat(curr)).filter(v => v != "").join("/") + "/";
 }
-export function routeMapTypeGuard(a: iRouteMapEntryNoParams | RouteMap<any> | iRouteMapEntryWithParams<any> | iRouteMapConfig) {
+function routeMapTypeGuard(a: iRouteMapEntryNoParams | RouteMap<any> | iRouteMapEntryWithParams<any> | iRouteMapConfig) {
     if (isRouteMap(a)) return { type: "routemap" as "routemap", val: a }
     if (isRouteMapEntryWithParams(a)) return { type: "withparams" as "withparams", val: a }
     if (isRouteMapConfig(a)) return { type: "config" as "config", val: a }
     return { type: "noparams" as "noparams", val: a }
 }
-export function isRouteMap(a: iRouteMapEntryNoParams | RouteMap<any> | iRouteMapEntryWithParams<any> | iRouteMapConfig): a is RouteMap<any> {
+function isRouteMap(a: iRouteMapEntryNoParams | RouteMap<any> | iRouteMapEntryWithParams<any> | iRouteMapConfig): a is RouteMap<any> {
     return a != null && (a instanceof RouteMap)
 }
-export function isRouteMapConfig(a: iRouteMapEntryNoParams | RouteMap<any> | iRouteMapEntryWithParams<any> | iRouteMapConfig): a is iRouteMapConfig {
+function isRouteMapConfig(a: iRouteMapEntryNoParams | RouteMap<any> | iRouteMapEntryWithParams<any> | iRouteMapConfig): a is iRouteMapConfig {
     return a != null && typeof a == "object" && !(a instanceof RouteMap) && !Array.isArray(a)
 }
-export function isRouteMapEntryWithParams(a: iRouteMapEntryNoParams | RouteMap<any> | iRouteMapEntryWithParams<any> | iRouteMapConfig): a is iRouteMapEntryWithParams<any> {
+function isRouteMapEntryWithParams(a: iRouteMapEntryNoParams | RouteMap<any> | iRouteMapEntryWithParams<any> | iRouteMapConfig): a is iRouteMapEntryWithParams<any> {
     return a != null && Array.isArray(a)
 }
 type iRouteMapConfig = {
     [PATH: string]:
     iRouteMapEntryNoParams | RouteMap<any> | iRouteMapEntryWithParams<any>
 };
-export type iParamRouteInfo<PARAM_K extends string> = { pattern: string, params: PARAM_K[], createUrl(params: { [P in PARAM_K]: string | number }): string }
-export type tPaths<T extends iRouteMapConfig> = { [P in keyof T]:
+type iParamRouteInfo<PARAM_K extends string> = { pattern: string, params: PARAM_K[], createUrl(params: { [P in PARAM_K]: string | number }): string }
+type tPaths<T extends iRouteMapConfig> = { [P in keyof T]:
     (
         T[P] extends iRouteMapEntryWithParams<infer PARAMS_T>
         ? iParamRouteInfo<PARAMS_T>
@@ -37,6 +36,12 @@ export type tPaths<T extends iRouteMapConfig> = { [P in keyof T]:
         : never
     )
 } & { path: string, pattern: string };
+
+//route types
+export const RouteWithoutParams: iRouteMapEntryNoParams = null;
+export function CreateParameters<T extends string>(params: T[]) { return params };
+
+//map of routes
 export class RouteMap<T extends iRouteMapConfig>{
     static rootMount: tPaths<any> | undefined = undefined;
     constructor(readonly map: T) { }
@@ -80,4 +85,3 @@ export class RouteMap<T extends iRouteMapConfig>{
         return Object.assign(ret, { path: baseUrl, pattern: baseUrl });
     }
 };
-export const RouteWithoutParams: iRouteMapEntryNoParams = null;
