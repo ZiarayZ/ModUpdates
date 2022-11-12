@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/modupdates/static/css/main.073c9b0a.css",
-    "main.js": "/modupdates/static/js/main.50e54db8.js",
-    "static/js/787.17e90353.chunk.js": "/modupdates/static/js/787.17e90353.chunk.js",
-    "static/media/logo.svg": "/modupdates/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/modupdates/index.html",
-    "main.073c9b0a.css.map": "/modupdates/static/css/main.073c9b0a.css.map",
-    "main.50e54db8.js.map": "/modupdates/static/js/main.50e54db8.js.map",
-    "787.17e90353.chunk.js.map": "/modupdates/static/js/787.17e90353.chunk.js.map"
+    "main.css": "/ModUpdates/static/css/main.073c9b0a.css",
+    "main.js": "/ModUpdates/static/js/main.95d2e414.js",
+    "static/js/787.17e90353.chunk.js": "/ModUpdates/static/js/787.17e90353.chunk.js",
+    "static/media/logo.svg": "/ModUpdates/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/ModUpdates/index.html",
+    "main.073c9b0a.css.map": "/ModUpdates/static/css/main.073c9b0a.css.map",
+    "main.95d2e414.js.map": "/ModUpdates/static/js/main.95d2e414.js.map",
+    "787.17e90353.chunk.js.map": "/ModUpdates/static/js/787.17e90353.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.50e54db8.js"
+    "static/js/main.95d2e414.js"
   ]
 }
