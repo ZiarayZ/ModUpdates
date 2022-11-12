@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './style/index.css';
 import reportWebVitals from './app/reportWebVitals';
-import { HashRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes, Navigate } from "react-router-dom";
 import Home, { Payday2, PerkDecks } from "./routes";
 import { sitemap } from './sitemaps/sitemap';
 
@@ -10,8 +10,9 @@ export function App() {
   return (
     <HashRouter>
       <Routes>
-        <Route path={sitemap.path} element={<Home />} />
-        <Route path={sitemap.Payday2.path} element={<Payday2 />} />
+        <Route path={sitemap.path} element={<Navigate to={sitemap.Home.path} replace />} />
+        <Route path={sitemap.Home.path} element={<Home />} />
+        <Route path={sitemap.Payday2.Mods.path} element={<Payday2 />} />
         <Route path={sitemap.Payday2.PerkDecks.path} element={<PerkDecks />} />
       </Routes>
     </HashRouter >
