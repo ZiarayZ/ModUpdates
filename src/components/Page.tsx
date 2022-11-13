@@ -17,9 +17,7 @@ const PageContent = styled.div`
     padding: ${props => props.theme.spacing.l};
 `;
 
-interface PageProps { }
-
-const Page: React.FC<React.PropsWithChildren<PageProps>> = (props) => {
+const Page: React.FC<React.PropsWithChildren> = (props) => {
     return (
         <StyledPage>
             <Navigation />
