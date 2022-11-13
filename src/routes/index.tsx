@@ -2,7 +2,6 @@ import React from "react";
 import Payday2FC from "./Payday2";
 import AboutFC from "./About";
 import PerkDecksFC from "./components/payday2/PerkDecks";
-import { Button } from "../style/widgets/Button";
 
 const Home: React.FC = () => {
 
