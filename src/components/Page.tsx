@@ -15,7 +15,6 @@ const StyledPage = styled.div`
 const PageContent = styled.div`
     flex: 1;
     padding: ${props => props.theme.spacing.l};
-    margin-top: 81px;
 `;
 
 const Page: React.FC<React.PropsWithChildren> = (props) => {
