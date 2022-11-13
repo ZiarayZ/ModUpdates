@@ -8,6 +8,13 @@ export const light_theme: DefaultTheme = {
         headerBackground: "",
         headerText: "",
 
+        navBackground: "",
+        navBackgroundHover: "",
+        navBackgroundActive: "",
+        navText: "",
+        navTextHover: "",
+        navTextActive: "",
+
         buttonBackground: "",
         buttonBackgroundHover: "",
         buttonBackgroundActive: "",

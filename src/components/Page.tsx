@@ -1,13 +1,13 @@
 import React from "react";
 import styled from "styled-components";
 
-import Header from "./Header";
+import Navigation from "./Navigation";
 
 const StyledPage = styled.div`
 
 `;
 const PageContent = styled.div`
-    
+
 `;
 
 interface PageProps { }
@@ -15,7 +15,7 @@ interface PageProps { }
 const Page: React.FC<React.PropsWithChildren<PageProps>> = (props) => {
     return (
         <StyledPage>
-            <Header />
+            <Navigation />
             <PageContent>
                 {props.children}
             </PageContent>

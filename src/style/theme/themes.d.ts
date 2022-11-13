@@ -9,6 +9,13 @@ declare module "styled-components" {
             headerBackground: string;
             headerText: string;
 
+            navBackground: string;
+            navBackgroundHover: string;
+            navBackgroundActive: string;
+            navText: string;
+            navTextHover: string;
+            navTextActive: string;
+
             buttonBackground: string;
             buttonBackgroundHover: string;
             buttonBackgroundActive: string;

@@ -1,27 +1,21 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import { sitemap } from "../sitemaps/sitemap";
 import styled from "styled-components";
+import Header from "./Header";
+import Navbar from "./Navbar";
 
-const StyledNav = styled.nav``;
-const StyledLink = styled(Link)``;
-
-const Nav: React.FC = () => {
-
-    //TODO: make dynamic or whatever for introducing new games etc
-
-    return (
-        <ul>
-            <li><StyledLink to={sitemap.path}>Home</StyledLink></li>
-            <li><StyledLink to={sitemap.Payday2.path}>Payday 2</StyledLink></li>
-        </ul>
-    )
-}
+const StyledNav = styled.nav`
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    width: 100%;
+    overflow: auto;
+`;
 
 const Navigation: React.FC = () => {
     return (
         <StyledNav>
-            <Nav />
+            <Header />
+            <Navbar />
         </StyledNav>
     )
 }

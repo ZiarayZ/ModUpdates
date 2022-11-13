@@ -2,9 +2,8 @@ import React from "react";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 import { sitemap } from "../sitemaps/sitemap";
-import Navigation from "./Navigation";
 
-const StyledHeader = styled.div`
+const StyledHeader = styled.header`
     background-color: ${props => props.theme.colors.headerBackground};
     color: ${props => props.theme.colors.headerText};
 `;
@@ -27,7 +26,6 @@ const Header: React.FC = () => {
                     Mod Updates
                 </HeaderTitleLink>
             </HeaderTitle>
-            <Navigation />
         </StyledHeader>
     )
 }
