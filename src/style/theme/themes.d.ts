@@ -6,6 +6,9 @@ declare module "styled-components" {
             pageBackground: string;
             pageText: string;
 
+            headerBackground: string;
+            headerText: string;
+
             buttonBackground: string;
             buttonBackgroundHover: string;
             buttonBackgroundActive: string;
@@ -15,6 +18,8 @@ declare module "styled-components" {
             linkTextHover: string;
             linkTextActive: string;
             linkTextVisited: string;
+
+            border: string;
         };
         fontSize: {
             body: string;

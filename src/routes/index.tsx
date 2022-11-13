@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { sitemap } from "../sitemaps/sitemap";
 import Payday2FC from "./Payday2";
 import PerkDecksFC from "./components/payday2/PerkDecks";
+import { Button } from "../style/widgets/Button";
 
 const Home: React.FC = () => {
     const redirect = useNavigate();
@@ -12,7 +13,7 @@ const Home: React.FC = () => {
     return <>
         <h1>Home</h1>
         <p>Hello, World!</p>
-        <button type='button' onClick={() => redirect(sitemap.Payday2.path)}>Payday 2</button>
+        <Button type='button' onClick={() => redirect(sitemap.Payday2.path)}>Payday 2</Button>
     </>
 }
 

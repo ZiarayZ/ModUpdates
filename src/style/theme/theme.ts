@@ -5,6 +5,9 @@ export const light_theme: DefaultTheme = {
         pageBackground: "white",
         pageText: "black",
 
+        headerBackground: "",
+        headerText: "",
+
         buttonBackground: "",
         buttonBackgroundHover: "",
         buttonBackgroundActive: "",
@@ -14,6 +17,8 @@ export const light_theme: DefaultTheme = {
         linkTextHover: "",
         linkTextActive: "",
         linkTextVisited: "",
+
+        border: "",
     },
     fontSize: {
         body: "13px",
