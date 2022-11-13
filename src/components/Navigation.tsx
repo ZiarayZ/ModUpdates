@@ -6,6 +6,7 @@ import Navbar from "./Navbar";
 const StyledNav = styled.nav`
     margin: 0;
     padding: 0;
+    top: 0;
     position: fixed;
     width: 100%;
     overflow: auto;
