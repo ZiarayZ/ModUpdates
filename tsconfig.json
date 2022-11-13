@@ -18,7 +18,19 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx"
+    "jsx": "react-jsx",
+    "baseUrl": "./",
+    "paths": {
+      "--root/*": [
+        "./src/*"
+      ],
+      "@widget": [
+        "./src/style/widgets/*"
+      ],
+      "@component": [
+        "./src/routes/components/*"
+      ],
+    }
   },
   "include": [
     "src"

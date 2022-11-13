@@ -2,6 +2,7 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import { sitemap } from "../sitemaps/sitemap";
 import Payday2FC from "./Payday2";
+import AboutFC from "./About";
 import PerkDecksFC from "./components/payday2/PerkDecks";
 import { Button } from "../style/widgets/Button";
 
@@ -20,3 +21,4 @@ const Home: React.FC = () => {
 export default Home;
 export const Payday2 = Payday2FC;
 export const PerkDecks = PerkDecksFC;
+export const About = AboutFC;

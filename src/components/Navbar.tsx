@@ -10,12 +10,16 @@ const Nav = styled.ul`
     list-style-type: none;
 `;
 const Node = styled.li`
-
+    float: left;
+`;
+const FinalNode = styled.li`
+    float: right;
 `;
 const StyledLink = styled(NavLink)`
     display: block;
     padding: ${props => props.theme.spacing.l};
     text-decoration: none;
+    text-align: center;
     background-color: ${props => props.theme.colors.navBackground};
     color: ${props => props.theme.colors.navText};
 
@@ -37,6 +41,7 @@ const Navbar: React.FC = () => {
         <Nav>
             <Node><StyledLink to={sitemap.path}>Home</StyledLink></Node>
             <Node><StyledLink to={sitemap.Payday2.path}>Payday 2</StyledLink></Node>
+            <FinalNode><StyledLink to={sitemap.About.path}>About</StyledLink></FinalNode>
         </Nav>
     )
 }

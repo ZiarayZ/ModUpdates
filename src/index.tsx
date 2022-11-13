@@ -5,7 +5,7 @@ import reportWebVitals from './app/reportWebVitals';
 
 //Routes
 import { HashRouter, Route, Routes, Navigate } from 'react-router-dom';
-import Home, { Payday2, PerkDecks } from './routes';
+import Home, { About, Payday2, PerkDecks } from './routes';
 import { sitemap } from './sitemaps/sitemap';
 
 //Themes
@@ -46,6 +46,8 @@ export function App() {
             <Route path={sitemap.Home.path} element={<Home />} />
             <Route path={sitemap.Payday2.Mods.path} element={<Payday2 />} />
             <Route path={sitemap.Payday2.PerkDecks.path} element={<PerkDecks />} />
+
+            <Route path={sitemap.About.path} element={<About />} />
           </Routes>
         </Page>
       </HashRouter >

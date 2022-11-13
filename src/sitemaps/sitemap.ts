@@ -5,7 +5,8 @@ export const routes = new RouteMap({
     Payday2: new RouteMap({
         Mods: RouteWithoutParams, //TODO
         PerkDecks: RouteWithoutParams //TODO
-    })
+    }),
+    About: RouteWithoutParams,
 });
 
 export const sitemap = routes.Mount("/");
