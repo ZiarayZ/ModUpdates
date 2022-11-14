@@ -11,25 +11,24 @@ const StyledNav = styled.nav`
     top: 0;
     overflow: auto;
 `;
-const StyledDiv = styled.div`
+const Banner = styled.div`
     display: flex;
 `;
-const Left = styled.div``;
-const Right = styled.div`
+const Nav = styled.div`
     flex: 1;
 `;
 
 const Navigation: React.FC = () => {
     return (
         <StyledNav>
-            <StyledDiv>
-                <Left>
+            <Banner>
+                <div>
                     <Header />
-                </Left>
-                <Right>
+                </div>
+                <Nav>
                     <Navbar />
-                </Right>
-            </StyledDiv>
+                </Nav>
+            </Banner>
         </StyledNav>
     )
 }
