@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.js": "/ModUpdates/static/js/main.ce290fcc.js",
+    "main.js": "/ModUpdates/static/js/main.c29298f3.js",
     "static/js/787.17e90353.chunk.js": "/ModUpdates/static/js/787.17e90353.chunk.js",
     "index.html": "/ModUpdates/index.html",
-    "main.ce290fcc.js.map": "/ModUpdates/static/js/main.ce290fcc.js.map",
+    "main.c29298f3.js.map": "/ModUpdates/static/js/main.c29298f3.js.map",
     "787.17e90353.chunk.js.map": "/ModUpdates/static/js/787.17e90353.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.ce290fcc.js"
+    "static/js/main.c29298f3.js"
   ]
 }
