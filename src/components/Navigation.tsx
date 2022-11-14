@@ -9,19 +9,14 @@ const StyledNav = styled.nav`
     width: 100%;
     position: sticky;
     top: 0;
+    flex-direction: row;
     overflow: auto;
-`;
-const StyledHeader = styled(Header)`
-    display: inline;
-`;
-const StyledNavbar = styled(Navbar)`
-    display: inline;
 `;
 
 const Navigation: React.FC = () => {
     return (
         <StyledNav>
-            <StyledHeader />
+            <Header />
             <Navbar />
         </StyledNav>
     )
