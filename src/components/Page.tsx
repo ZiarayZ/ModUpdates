@@ -16,6 +16,7 @@ const PageContent = styled.main`
     flex: 1;
     padding: ${props => props.theme.spacing.l};
 `;
+const Info = styled.footer``;
 
 const Page: React.FC<React.PropsWithChildren> = (props) => {
     return (
@@ -24,6 +25,7 @@ const Page: React.FC<React.PropsWithChildren> = (props) => {
             <PageContent>
                 {props.children}
             </PageContent>
+            <Info />
         </StyledPage>
     )
 }
