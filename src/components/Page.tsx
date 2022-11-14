@@ -12,7 +12,7 @@ const StyledPage = styled.div`
     height: 100%;
     overflow: auto;
 `;
-const PageContent = styled.div`
+const PageContent = styled.main`
     flex: 1;
     padding: ${props => props.theme.spacing.l};
 `;
