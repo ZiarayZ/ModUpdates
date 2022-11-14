@@ -12,14 +12,10 @@ const StyledNav = styled.nav`
     overflow: auto;
 `;
 const StyledHeader = styled(Header)`
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+    display: inline;
 `;
 const StyledNavbar = styled(Navbar)`
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+    display: inline;
 `;
 
 const Navigation: React.FC = () => {
