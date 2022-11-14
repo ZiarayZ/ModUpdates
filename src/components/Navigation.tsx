@@ -9,15 +9,27 @@ const StyledNav = styled.nav`
     width: 100%;
     position: sticky;
     top: 0;
-    flex-direction: row;
     overflow: auto;
+`;
+const StyledDiv = styled.div`
+    display: flex;
+`;
+const Left = styled.div``;
+const Right = styled.div`
+    flex: 1;
 `;
 
 const Navigation: React.FC = () => {
     return (
         <StyledNav>
-            <Header />
-            <Navbar />
+            <StyledDiv>
+                <Left>
+                    <Header />
+                </Left>
+                <Right>
+                    <Navbar />
+                </Right>
+            </StyledDiv>
         </StyledNav>
     )
 }
