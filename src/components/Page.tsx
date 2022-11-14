@@ -16,7 +16,10 @@ const PageContent = styled.main`
     flex: 1;
     padding: ${props => props.theme.spacing.l};
 `;
-const Info = styled.footer``;
+const Info = styled.footer`
+    flex: 2;
+    padding: ${props => props.theme.spacing.l};
+`;
 
 const Page: React.FC<React.PropsWithChildren> = (props) => {
     return (
