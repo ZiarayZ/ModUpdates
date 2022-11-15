@@ -16,6 +16,9 @@ const StyledNav = styled.nav`
 const Banner = styled.div`
     display: flex;
 `;
+const HeaderDiv = styled.div`
+    margin: auto 0;
+`;
 const Nav = styled.div`
     flex: 1;
 `;
@@ -24,9 +27,9 @@ const Navigation: React.FC = () => {
     return (
         <StyledNav>
             <Banner>
-                <div>
+                <HeaderDiv>
                     <Header />
-                </div>
+                </HeaderDiv>
                 <Nav>
                     <Navbar />
                 </Nav>

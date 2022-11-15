@@ -8,9 +8,6 @@ const StyledHeader = styled.header`
     color: ${props => props.theme.colors.headerText};
     height: 100%;
 `;
-const HeaderDiv = styled.div`
-    margin: auto 0;
-`;
 const HeaderTitle = styled.h1`
     font-size: ${props => props.theme.fontSize.title};
     font-weight: 500;
