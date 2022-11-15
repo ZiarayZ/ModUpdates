@@ -19,6 +19,7 @@ const Banner = styled.div`
     height: inherit;
 `;
 const HeaderDiv = styled.div`
+    margin: auto;
     height: inherit;
 `;
 const Nav = styled.div`

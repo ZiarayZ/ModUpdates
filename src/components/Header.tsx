@@ -9,7 +9,7 @@ const StyledHeader = styled.header`
 `;
 const HeaderTitle = styled.h1`
     font-size: ${props => props.theme.fontSize.title};
-    margin: auto;
+    margin: 0;
     font-weight: 500;
 `;
 const HeaderTitleLink = styled(Link)`
