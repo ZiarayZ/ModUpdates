@@ -24,12 +24,6 @@
       "--root/*": [
         "./src/*"
       ],
-      "--widget/*": [
-        "./src/style/widgets/*"
-      ],
-      "--component/*": [
-        "./src/routes/components/*"
-      ],
     }
   },
   "include": [
