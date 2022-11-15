@@ -11,7 +11,7 @@ const StyledHeader = styled.header`
 const HeaderTitle = styled.h1`
     font-size: ${props => props.theme.fontSize.title};
     font-weight: 500;
-    margin: 0;
+    margin: auto 0;
 `;
 const HeaderTitleLink = styled(Link)`
     color: inherit;
