@@ -2,7 +2,7 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import { sitemap } from "--root/sitemaps/sitemap";
 import { Button } from "--root/style/widgets/Button";
-import Mods from "@component/payday2/Mods";
+import Mods from "--component/payday2/Mods";
 
 const Home: React.FC = () => {
     const redirect = useNavigate();
