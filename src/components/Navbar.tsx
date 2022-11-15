@@ -20,7 +20,6 @@ const StyledLink = styled(NavLink)`
     padding: ${props => props.theme.spacing.l};
     text-decoration: none;
     text-align: center;
-    background-color: ${props => props.theme.colors.navBackground};
     color: ${props => props.theme.colors.navText};
 
     &:hover {

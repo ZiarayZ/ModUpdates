@@ -10,6 +10,8 @@ const StyledNav = styled.nav`
     position: sticky;
     top: 0;
     overflow: auto;
+
+    background-color: ${props => props.theme.colors.navBackground};
 `;
 const Banner = styled.div`
     display: flex;
