@@ -2,16 +2,16 @@ import { DefaultTheme } from "styled-components";
 
 export const light_theme: DefaultTheme = {
     colors: {
-        pageBackground: "white",
-        pageText: "black",
+        pageBackground: "rgb(228, 215, 199)",
+        pageText: "rgb(153, 63, 11)",
 
         headerBackground: "",
-        headerText: "",
+        headerText: "rgb(71, 73, 75)",
 
         navBackground: "",
         navBackgroundHover: "",
         navBackgroundActive: "",
-        navText: "",
+        navText: "rgb(71, 73, 75)",
         navTextHover: "",
         navTextActive: "",
 
@@ -65,5 +65,30 @@ export const dark_theme: DefaultTheme = {
     ...light_theme,
     colors: {
         ...light_theme.colors,
+
+        pageBackground: "rgb(27, 40, 56)",
+        pageText: "rgb(102, 192, 244)",
+
+        headerBackground: "rgb(23, 26, 33)",
+        headerText: "rgb(184, 182, 180)",
+
+        navBackground: "rgb(23, 26, 33)",
+        navBackgroundHover: "",
+        navBackgroundActive: "",
+        navText: "rgb(184, 182, 180)",
+        navTextHover: "",
+        navTextActive: "",
+
+        buttonBackground: "",
+        buttonBackgroundHover: "",
+        buttonBackgroundActive: "",
+        buttonText: "",
+
+        linkText: "",
+        linkTextHover: "",
+        linkTextActive: "",
+        linkTextVisited: "",
+
+        border: "",
     }
 }
