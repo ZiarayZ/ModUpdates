@@ -17,7 +17,7 @@ const Banner = styled.div`
     display: flex;
 `;
 const HeaderDiv = styled.div`
-    margin: auto 0;
+    margin: auto;
 `;
 const Nav = styled.div`
     flex: 1;

@@ -6,7 +6,6 @@ import { sitemap } from "../sitemaps/sitemap";
 const Nav = styled.ul`
     margin: inherit;
     padding: inherit;
-    height: 100%;
     list-style-type: none;
 `;
 const Node = styled.li`

@@ -6,7 +6,6 @@ import { sitemap } from "../sitemaps/sitemap";
 const StyledHeader = styled.header`
     background-color: ${props => props.theme.colors.headerBackground};
     color: ${props => props.theme.colors.headerText};
-    height: 100%;
 `;
 const HeaderTitle = styled.h1`
     font-size: ${props => props.theme.fontSize.title};
