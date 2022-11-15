@@ -20,11 +20,14 @@ const Info = styled.footer`
     flex: 2;
     padding: ${props => props.theme.spacing.l};
 `;
+const StyledNavigation = styled(Navigation)`
+    height: 50px;
+`;
 
 const Page: React.FC<React.PropsWithChildren> = (props) => {
     return (
         <StyledPage>
-            <Navigation />
+            <StyledNavigation />
             <PageContent>
                 {props.children}
             </PageContent>
