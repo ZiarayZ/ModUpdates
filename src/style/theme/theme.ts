@@ -3,7 +3,7 @@ import { DefaultTheme } from "styled-components";
 export const light_theme: DefaultTheme = {
     colors: {
         pageBackground: "rgb(228, 215, 199)",
-        pageText: "rgb(153, 63, 11)",
+        pageText: "black",
 
         headerBackground: "",
         headerText: "rgb(71, 73, 75)",
@@ -20,7 +20,7 @@ export const light_theme: DefaultTheme = {
         buttonBackgroundActive: "",
         buttonText: "",
 
-        linkText: "",
+        linkText: "rgb(153, 63, 11)",
         linkTextHover: "",
         linkTextActive: "",
         linkTextVisited: "",
@@ -67,7 +67,7 @@ export const dark_theme: DefaultTheme = {
         ...light_theme.colors,
 
         pageBackground: "rgb(27, 40, 56)",
-        pageText: "rgb(102, 192, 244)",
+        pageText: "white",
 
         headerBackground: "rgb(23, 26, 33)",
         headerText: "rgb(184, 182, 180)",
@@ -84,7 +84,7 @@ export const dark_theme: DefaultTheme = {
         buttonBackgroundActive: "",
         buttonText: "",
 
-        linkText: "",
+        linkText: "rgb(102, 192, 244)",
         linkTextHover: "",
         linkTextActive: "",
         linkTextVisited: "",
