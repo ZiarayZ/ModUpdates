@@ -20,7 +20,6 @@ const Banner = styled.div`
 `;
 const HeaderDiv = styled.div`
     margin: auto;
-    height: inherit;
 `;
 const Nav = styled.div`
     flex: 1;
