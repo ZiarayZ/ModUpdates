@@ -1,7 +1,7 @@
 import React from "react";
 import Payday2FC from "./Payday2";
 import AboutFC from "./About";
-import PerkDecksFC from "./components/payday2/PerkDecks";
+import PerkDecksFC from "@component/payday2/PerkDecks";
 
 const Home: React.FC = () => {
 

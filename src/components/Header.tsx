@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
-import { sitemap } from "../sitemaps/sitemap";
+import { sitemap } from "--root/sitemaps/sitemap";
 
 const StyledHeader = styled.header`
     background-color: ${props => props.theme.colors.headerBackground};

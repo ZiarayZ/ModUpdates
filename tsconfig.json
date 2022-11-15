@@ -24,10 +24,10 @@
       "--root/*": [
         "./src/*"
       ],
-      "@widget": [
+      "@widget/*": [
         "./src/style/widgets/*"
       ],
-      "@component": [
+      "@component/*": [
         "./src/routes/components/*"
       ],
     }
