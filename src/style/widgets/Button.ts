@@ -9,6 +9,7 @@ export const Button = styled.button`
 
     align-items: center;
     background-color: var(--button-background);
+    background-image: var(--button-background);
     border: none;
     border-radius: ${props => props.theme.borderRadius.s};
     box-shadow: ${props => props.theme.shadows.s};
