@@ -5,14 +5,14 @@ export const light_theme: DefaultTheme = {
         pageBackground: "rgb(228, 215, 199)",
         pageText: "black",
 
-        headerBackground: "",
+        headerBackground: "rgb(232, 229, 222)",
         headerText: "rgb(71, 73, 75)",
 
-        navBackground: "",
+        navBackground: "rgb(232, 229, 222)",
         navBackgroundHover: "",
         navBackgroundActive: "",
         navText: "rgb(71, 73, 75)",
-        navTextHover: "",
+        navTextHover: "black",
         navTextActive: "",
 
         buttonBackground: "",
@@ -21,7 +21,7 @@ export const light_theme: DefaultTheme = {
         buttonText: "",
 
         linkText: "rgb(153, 63, 11)",
-        linkTextHover: "",
+        linkTextHover: "black",
         linkTextActive: "",
         linkTextVisited: "",
 
@@ -76,7 +76,7 @@ export const dark_theme: DefaultTheme = {
         navBackgroundHover: "",
         navBackgroundActive: "",
         navText: "rgb(184, 182, 180)",
-        navTextHover: "",
+        navTextHover: "white",
         navTextActive: "",
 
         buttonBackground: "",
@@ -85,7 +85,7 @@ export const dark_theme: DefaultTheme = {
         buttonText: "",
 
         linkText: "rgb(102, 192, 244)",
-        linkTextHover: "",
+        linkTextHover: "white",
         linkTextActive: "",
         linkTextVisited: "",
 
