@@ -90,5 +90,10 @@ export const dark_theme: DefaultTheme = {
         linkTextVisited: "",
 
         border: "",
+    },
+    shadows: {
+        s: "0 2px 5px 0 rgba(255, 255, 255, 0.15)",
+        m: "0 2px 5px 0 rgba(255, 255, 255, 0.25)",
+        l: "0 2px 15px 0 rgba(255, 255, 255, 0.25)",
     }
 }
