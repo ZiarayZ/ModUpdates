@@ -15,10 +15,10 @@ export const light_theme: DefaultTheme = {
         navTextHover: "black",
         navTextActive: "",
 
-        buttonBackground: "",
+        buttonBackground: "linear-gradient(90deg, #F94000 0%, #D28C00 100%)",
         buttonBackgroundHover: "",
         buttonBackgroundActive: "",
-        buttonText: "",
+        buttonText: "black",
 
         linkText: "rgb(153, 63, 11)",
         linkTextHover: "black",
@@ -79,10 +79,10 @@ export const dark_theme: DefaultTheme = {
         navTextHover: "white",
         navTextActive: "",
 
-        buttonBackground: "",
+        buttonBackground: "linear-gradient(90deg, #06BFFF 0%, #2D73FF 100%)",
         buttonBackgroundHover: "",
         buttonBackgroundActive: "",
-        buttonText: "",
+        buttonText: "white",
 
         linkText: "rgb(102, 192, 244)",
         linkTextHover: "white",
