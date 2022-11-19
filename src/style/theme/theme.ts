@@ -16,8 +16,8 @@ export const light_theme: DefaultTheme = {
         navTextActive: "black",
 
         buttonBackground: "linear-gradient(90deg, #F94000 0%, #D28C00 100%)",
-        buttonBackgroundHover: "rgb(210, 140, 0)",
-        buttonBackgroundActive: "rgb(210, 140, 0)",
+        buttonBackgroundHover: "linear-gradient(90deg, #D28C00 0%, #F94000 100%)",
+        buttonBackgroundActive: "linear-gradient(90deg, #D28C00 0%, #F94000 100%)",
         buttonText: "black",
 
         linkText: "rgb(153, 63, 11)",
@@ -80,8 +80,8 @@ export const dark_theme: DefaultTheme = {
         navTextActive: "white",
 
         buttonBackground: "linear-gradient(90deg, #06BFFF 0%, #2D73FF 100%)",
-        buttonBackgroundHover: "rgb(45, 115, 255)",
-        buttonBackgroundActive: "rgb(45, 115, 255)",
+        buttonBackgroundHover: "linear-gradient(90deg, #2D73FF 0%, #06BFFF 100%)",
+        buttonBackgroundActive: "linear-gradient(90deg, #2D73FF 0%, #06BFFF 100%)",
         buttonText: "white",
 
         linkText: "rgb(102, 192, 244)",

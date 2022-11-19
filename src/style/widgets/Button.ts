@@ -8,7 +8,6 @@ export const Button = styled.button`
 
 
     align-items: center;
-    background-color: var(--button-background);
     background-image: var(--button-background);
     border: none;
     border-radius: ${props => props.theme.borderRadius.s};
@@ -27,10 +26,8 @@ export const Button = styled.button`
     }
     &:active {
         background-image: var(--button-background-active);
-        background-color: var(--button-background-active);
     }
     &:hover {
         background-image: var(--button-background-hover);
-        background-color: var(--button-background-hover);
     }
 `;
