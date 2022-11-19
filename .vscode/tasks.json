@@ -3,6 +3,7 @@
 	"tasks": [
 		{
 			"type": "shell",
+			"group": "build",
 			"label": "Deploy Saved Build",
 			"command": "npm run deploy -- -m '${input:commitName}'",
 			"problemMatcher": []
