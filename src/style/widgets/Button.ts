@@ -21,7 +21,15 @@ export const Button = styled.button`
         ${props => props.theme.spacing.l};
     transition: background-color ${props => props.theme.transitions.short};
     justify-content: center;
-    :disabled {
+    &:disabled {
         opacity: 0.5;
+    }
+    &:active {
+        background-image: none;
+        background-color: var(--button-background-active);
+    }
+    &:hover {
+        background-image: none;
+        background-color: var(--button-background-hover);
     }
 `;
