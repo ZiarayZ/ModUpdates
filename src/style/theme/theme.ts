@@ -9,11 +9,11 @@ export const light_theme: DefaultTheme = {
         headerText: "rgb(71, 73, 75)",
 
         navBackground: "rgb(232, 229, 222)",
-        navBackgroundHover: "",
-        navBackgroundActive: "",
+        navBackgroundHover: "rgb(232, 229, 222)",
+        navBackgroundActive: "rgb(232, 229, 222)",
         navText: "rgb(71, 73, 75)",
         navTextHover: "black",
-        navTextActive: "",
+        navTextActive: "black",
 
         buttonBackground: "linear-gradient(90deg, #F94000 0%, #D28C00 100%)",
         buttonBackgroundHover: "",
@@ -73,11 +73,11 @@ export const dark_theme: DefaultTheme = {
         headerText: "rgb(184, 182, 180)",
 
         navBackground: "rgb(23, 26, 33)",
-        navBackgroundHover: "",
-        navBackgroundActive: "",
+        navBackgroundHover: "rgb(23, 26, 33)",
+        navBackgroundActive: "rgb(23, 26, 33)",
         navText: "rgb(184, 182, 180)",
         navTextHover: "white",
-        navTextActive: "",
+        navTextActive: "white",
 
         buttonBackground: "linear-gradient(90deg, #06BFFF 0%, #2D73FF 100%)",
         buttonBackgroundHover: "",
