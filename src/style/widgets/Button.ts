@@ -26,9 +26,11 @@ export const Button = styled.button`
         opacity: 0.5;
     }
     &:active {
+        background-image: var(--button-background-active);
         background-color: var(--button-background-active);
     }
     &:hover {
+        background-image: var(--button-background-hover);
         background-color: var(--button-background-hover);
     }
 `;
