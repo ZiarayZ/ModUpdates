@@ -18,7 +18,7 @@ export const Button = styled.button`
     padding:
         ${props => props.theme.spacing.s}
         ${props => props.theme.spacing.l};
-    transition: background-color ${props => props.theme.transitions.short};
+    transition: background-image ${props => props.theme.transitions.short};
     justify-content: center;
     cursor: pointer;
     &:disabled {
