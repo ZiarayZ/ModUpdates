@@ -22,8 +22,8 @@ export const light_theme: DefaultTheme = {
 
         linkText: "rgb(153, 63, 11)",
         linkTextHover: "black",
-        linkTextActive: "",
-        linkTextVisited: "",
+        linkTextActive: "black",
+        linkTextVisited: "rgb(153, 63, 11)",
 
         border: "none",
     },
@@ -86,8 +86,8 @@ export const dark_theme: DefaultTheme = {
 
         linkText: "rgb(102, 192, 244)",
         linkTextHover: "white",
-        linkTextActive: "",
-        linkTextVisited: "",
+        linkTextActive: "white",
+        linkTextVisited: "rgb(102, 192, 244)",
     },
     shadows: {
         s: "0 2px 5px 0 rgba(255, 255, 255, 0.15)",
