@@ -1,4 +1,3 @@
-import React from "react";
 import styled from "styled-components";
 import { NavLink } from "react-router-dom";
 import { sitemap } from "../sitemaps/sitemap";
@@ -32,7 +31,7 @@ const StyledLink = styled(NavLink)`
     }
 `;
 
-const Navbar: React.FC = () => {
+function Navbar(): JSX.Element {
 
     //TODO: make dynamic or whatever for introducing new games etc
 
@@ -42,7 +41,7 @@ const Navbar: React.FC = () => {
             <Node><StyledLink to={sitemap.Payday2.path}>Payday 2</StyledLink></Node>
             <FinalNode><StyledLink to={sitemap.About.path}>About</StyledLink></FinalNode>
         </Nav>
-    )
+    );
 }
 
 export default Navbar;

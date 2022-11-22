@@ -24,7 +24,7 @@ function getTheme() {
   return light_theme;
 }
 
-export function App() {
+export function App(): JSX.Element {
 
   const [theme, setTheme] = useState(getTheme());
 

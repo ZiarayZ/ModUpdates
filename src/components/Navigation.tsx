@@ -1,4 +1,3 @@
-import React from "react";
 import styled from "styled-components";
 import Header from "./Header";
 import Navbar from "./Navbar";
@@ -26,7 +25,7 @@ const Nav = styled.div`
     height: inherit;
 `;
 
-const Navigation: React.FC = () => {
+function Navigation(): JSX.Element {
     return (
         <StyledNav>
             <Banner>
@@ -38,7 +37,7 @@ const Navigation: React.FC = () => {
                 </Nav>
             </Banner>
         </StyledNav>
-    )
+    );
 }
 
 export default Navigation;

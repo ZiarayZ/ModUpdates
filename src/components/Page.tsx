@@ -24,7 +24,7 @@ const StyledNavigation = styled(Navigation)`
     height: 50px;
 `;
 
-const Page: React.FC<React.PropsWithChildren> = (props) => {
+function Page(props: React.PropsWithChildren): JSX.Element {
     return (
         <StyledPage>
             <StyledNavigation />
@@ -33,7 +33,7 @@ const Page: React.FC<React.PropsWithChildren> = (props) => {
             </PageContent>
             <Info />
         </StyledPage>
-    )
+    );
 }
 
 export default Page;

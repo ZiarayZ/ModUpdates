@@ -1,16 +1,17 @@
-import React from "react";
 import Payday2FC from "./Payday2";
 import AboutFC from "./About";
 import PerkDecksFC from "./components/payday2/PerkDecks";
 
-const Home: React.FC = () => {
+function Home(): JSX.Element {
 
     //Information about Mods and different games I've modded ig?
 
-    return <>
-        <h1>Home</h1>
-        <p>Hello, World!</p>
-    </>
+    return (
+        <>
+            <h1>Home</h1>
+            <p>Hello, World!</p>
+        </>
+    );
 }
 
 export default Home;

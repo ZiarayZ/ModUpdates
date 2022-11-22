@@ -1,4 +1,3 @@
-import React from "react";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 import { sitemap } from "../sitemaps/sitemap";
@@ -18,7 +17,7 @@ const HeaderTitleLink = styled(Link)`
     text-decoration: none;
 `;
 
-const Header: React.FC = () => {
+function Header(): JSX.Element {
     return (
         <StyledHeader>
             <HeaderTitle>
