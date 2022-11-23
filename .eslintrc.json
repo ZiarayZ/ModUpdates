@@ -27,17 +27,6 @@
             "error",
             4
         ],
-        "import/extensions": [
-            "error",
-            "ignorePackages",
-            {
-                "": "never",
-                "js": "never",
-                "jsx": "never",
-                "ts": "never",
-                "tsx": "never"
-            }
-        ],
         "react/jsx-indent": [
             1,
             4
@@ -56,6 +45,21 @@
                     ".jsx"
                 ]
             }
+        ],
+        "import/extensions": [
+            "error",
+            "ignorePackages",
+            {
+                "": "never",
+                "js": "never",
+                "jsx": "never",
+                "ts": "never",
+                "tsx": "never"
+            }
+        ],
+        "linebreak-style": [
+            "error",
+            "windows"
         ]
     }
 }
