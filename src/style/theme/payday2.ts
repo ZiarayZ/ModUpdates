@@ -1,24 +1,24 @@
 import { DefaultTheme } from "styled-components";
-import { dark_theme } from "./theme";
+import { darkTheme } from "./theme";
 
 const payday2: DefaultTheme = {
     colors: {
-        ...dark_theme.colors,
+        ...darkTheme.colors,
     },
     fontSize: {
-        ...dark_theme.fontSize,
+        ...darkTheme.fontSize,
     },
     spacing: {
-        ...dark_theme.spacing,
+        ...darkTheme.spacing,
     },
     borderRadius: {
-        ...dark_theme.borderRadius,
+        ...darkTheme.borderRadius,
     },
     shadows: {
-        ...dark_theme.shadows,
+        ...darkTheme.shadows,
     },
     transitions: {
-        ...dark_theme.transitions,
+        ...darkTheme.transitions,
     },
 };
 

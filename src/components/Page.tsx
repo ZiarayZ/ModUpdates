@@ -24,11 +24,13 @@ const StyledNavigation = styled(Navigation)`
 `;
 
 function Page(props: React.PropsWithChildren): JSX.Element {
+    const { children } = props;
+
     return (
         <StyledPage>
             <StyledNavigation />
             <PageContent>
-                {props.children}
+                {children}
             </PageContent>
             <Info />
         </StyledPage>
