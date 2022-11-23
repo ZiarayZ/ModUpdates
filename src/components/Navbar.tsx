@@ -1,3 +1,4 @@
+import React from "react";
 import styled from "styled-components";
 import { NavLink } from "react-router-dom";
 import { sitemap } from "../sitemaps/sitemap";
@@ -15,25 +16,24 @@ const FinalNode = styled.li`
 `;
 const StyledLink = styled(NavLink)`
     display: block;
-    padding: ${props => props.theme.spacing.l};
+    padding: ${(props) => props.theme.spacing.l};
     text-decoration: none;
     text-align: center;
     height: 100%;
-    color: ${props => props.theme.colors.navText};
+    color: ${(props) => props.theme.colors.navText};
 
     &:hover {
-        background-color: ${props => props.theme.colors.navBackgroundHover};
-        color: ${props => props.theme.colors.navTextHover};
+        background-color: ${(props) => props.theme.colors.navBackgroundHover};
+        color: ${(props) => props.theme.colors.navTextHover};
     }
     &:active {
-        background-color: ${props => props.theme.colors.navBackgroundActive};
-        color: ${props => props.theme.colors.navTextActive}
+        background-color: ${(props) => props.theme.colors.navBackgroundActive};
+        color: ${(props) => props.theme.colors.navTextActive}
     }
 `;
 
 function Navbar(): JSX.Element {
-
-    //TODO: make dynamic or whatever for introducing new games etc
+    // TODO: make dynamic or whatever for introducing new games etc
 
     return (
         <Nav>

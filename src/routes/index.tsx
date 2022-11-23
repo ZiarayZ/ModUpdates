@@ -1,10 +1,10 @@
+import React from "react";
 import Payday2FC from "./Payday2";
 import AboutFC from "./About";
 import PerkDecksFC from "./components/payday2/PerkDecks";
 
 function Home(): JSX.Element {
-
-    //Information about Mods and different games I've modded ig?
+    // Information about Mods and different games I've modded ig?
 
     return (
         <>

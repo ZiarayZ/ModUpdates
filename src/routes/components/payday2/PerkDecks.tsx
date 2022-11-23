@@ -1,8 +1,7 @@
-
+import React from "react";
 
 function PerkDecks(): JSX.Element {
-
-    //Redirects to different games ig?
+    // Redirects to different games ig?
 
     return (
         <>

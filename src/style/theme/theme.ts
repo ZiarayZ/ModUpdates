@@ -1,6 +1,6 @@
 import { DefaultTheme } from "styled-components";
 
-export const light_theme: DefaultTheme = {
+export const lightTheme: DefaultTheme = {
     colors: {
         pageBackground: "rgb(228, 215, 199)",
         pageText: "black",
@@ -60,11 +60,11 @@ export const light_theme: DefaultTheme = {
     transitions: {
         short: "200ms ease",
     },
-}
-export const dark_theme: DefaultTheme = {
-    ...light_theme,
+};
+export const darkTheme: DefaultTheme = {
+    ...lightTheme,
     colors: {
-        ...light_theme.colors,
+        ...lightTheme.colors,
 
         pageBackground: "rgb(27, 40, 56)",
         pageText: "white",
@@ -93,5 +93,5 @@ export const dark_theme: DefaultTheme = {
         s: "0 2px 5px 0 rgba(255, 255, 255, 0.15)",
         m: "0 2px 5px 0 rgba(255, 255, 255, 0.25)",
         l: "0 2px 15px 0 rgba(255, 255, 255, 0.25)",
-    }
-}
+    },
+};

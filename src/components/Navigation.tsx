@@ -1,3 +1,4 @@
+import React from "react";
 import styled from "styled-components";
 import Header from "./Header";
 import Navbar from "./Navbar";
@@ -11,7 +12,7 @@ const StyledNav = styled.nav`
     overflow: auto;
     height: 50px;
 
-    background-color: ${props => props.theme.colors.navBackground};
+    background-color: ${(props) => props.theme.colors.navBackground};
 `;
 const Banner = styled.div`
     display: flex;

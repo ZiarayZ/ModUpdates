@@ -14,7 +14,7 @@ const GlobalStyle = createGlobalStyle`
             Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;
 
         font-family: var(--system-font-sans-serif);
-        font-size: ${props => props.theme.fontSize.body};
+        font-size: ${(props) => props.theme.fontSize.body};
     }
 
     html, body, #application {
@@ -34,16 +34,16 @@ const GlobalStyle = createGlobalStyle`
         }
     }
 
-    h1 { font-size: ${props => props.theme.fontSize.header1}; }
-    h2 { font-size: ${props => props.theme.fontSize.header2}; }
-    h3 { font-size: ${props => props.theme.fontSize.header3}; }
-    h4 { font-size: ${props => props.theme.fontSize.header4}; }
-    h5 { font-size: ${props => props.theme.fontSize.header5}; }
-    h6 { font-size: ${props => props.theme.fontSize.header6}; }
+    h1 { font-size: ${(props) => props.theme.fontSize.header1}; }
+    h2 { font-size: ${(props) => props.theme.fontSize.header2}; }
+    h3 { font-size: ${(props) => props.theme.fontSize.header3}; }
+    h4 { font-size: ${(props) => props.theme.fontSize.header4}; }
+    h5 { font-size: ${(props) => props.theme.fontSize.header5}; }
+    h6 { font-size: ${(props) => props.theme.fontSize.header6}; }
 
     hr {
         border: none;
-        border-top: 1px solid ${props => props.theme.colors.border};
+        border-top: 1px solid ${(props) => props.theme.colors.border};
         height: 1px;
         width: 100%;
     }

@@ -20,6 +20,6 @@ const payday2: DefaultTheme = {
     transitions: {
         ...dark_theme.transitions,
     },
-}
+};
 
 export default payday2;

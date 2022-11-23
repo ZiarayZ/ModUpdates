@@ -1,5 +1,7 @@
+import React from "react";
+
 function Mods(): JSX.Element {
-    //Redirects to different games ig?
+    // Redirects to different games ig?
 
     return (
         <>
